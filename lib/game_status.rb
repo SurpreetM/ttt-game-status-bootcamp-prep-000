@@ -29,3 +29,8 @@ def full?(board)
     token == "X" || token == "O"
   end 
 end 
+
+def draw (board)
+  
+end 
+
