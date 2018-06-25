@@ -30,8 +30,7 @@ def full?(board)
   end 
 end 
 
-def draw>?(board)
-  board.all? do full?(board) && !won?(board)
-  end 
+def draw?(board)
+  full?(board) && !won?(board)
 end 
 
